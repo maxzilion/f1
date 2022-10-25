@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Towing Services|contact</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Mac<span>Wilson.</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="instructions.html">Instructions</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="go-premium-cta"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<div class="box">
+    <div class="container">
+        <h2 class="entry-title"><h2>Kindly submit your complaints here.</h2>
+
+        <div class="row">
+            <div class="colum5">
+                <form action="#" class="contact-form">
+                    <input type="text" id="name" placeholder="Name...">
+                    <input type="text" id="email" placeholder="Email...">
+                    <input type="text" id="website" placeholder="Website...">
+                    <textarea name="" id="message" placeholder="Message..."></textarea>
+                    <div class="text-right">
+                        <input type="submit" value="Send message">
+                    </div>
+                </form>
+            </div>
+            <div class="colum6">
+                <div class="map-container">
+                    <div class="map"></div>
+                    <address>
+                        <strong>Mac Wilson INC.</strong>
+                        <a href="mailto:office@companyname.com">emaxzy.technology@gmail.com</a> <br>
+                        <span>40 Sibley St, Bevrely hills</span>
+                        <a href="tel:(+234) 803 046 9803">(+234) 803 046 9803</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <p> COPYRIGHT 2022 MAC WILSON INC.</p>
+</footer>
+<script>
+
+    const mobileBtn = document.getElementById('mobile-cta')
+          nav = document.querySelector('nav')
+          mobileBtnExit = document.getElementById('mobile-exit');
+
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add('menu-btn');
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+    })
+
+
+
+</script>
+
+</body>
+</html>
